@@ -33,7 +33,7 @@ jobs:
       run: |
         echo "Iniciando login"
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-        echo "NEW_VERSION: $NEW_VERSION!!"
+        echo "NEW_VERSION: $NEW_VERSION !!"
 
 #    - name: Build Docker image
  #     run: |
